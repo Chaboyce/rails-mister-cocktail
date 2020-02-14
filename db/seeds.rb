@@ -1,5 +1,5 @@
 # db/seeds.rb
-Cocktail.destroy_all
+
 
 require "open-uri"
 
