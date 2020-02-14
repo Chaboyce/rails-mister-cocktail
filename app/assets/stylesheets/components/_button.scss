@@ -4,10 +4,23 @@
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: bold;
-  opacity: 0.6;
+  opacity: 1.6;
   transition: opacity 0.3s ease;
 }
 
 .btn-ghost:hover {
+  opacity: 1;
+}
+
+.btn-content {
+  color: #0D2948;
+  padding: 8px 24px;
+  font-weight: light;
+  opacity: 1.6;
+  transition: opacity 0.3s ease;
+  font-size: 15px;
+}
+
+.btn-content:hover {
   opacity: 1;
 }
