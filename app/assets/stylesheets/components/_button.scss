@@ -6,21 +6,35 @@
   font-weight: bold;
   opacity: 1.6;
   transition: opacity 0.3s ease;
+  margin-top: 10px;
 }
 
 .btn-ghost:hover {
   opacity: 1;
 }
 
-.btn-content {
+.btn-content-remove {
   color: #0D2948;
   padding: 8px 24px;
-  font-weight: light;
-  opacity: 1.6;
   transition: opacity 0.3s ease;
   font-size: 15px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+
 }
 
-.btn-content:hover {
+.btn-content-remove:hover {
+  opacity: 1;
+}
+
+.btn-content-add {
+  color: #0D2948;
+  padding: 4px 8px;
+  transition: opacity 0.3s ease;
+  border: 1px solid #0D2948;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.btn-add-remove:hover {
   opacity: 1;
 }

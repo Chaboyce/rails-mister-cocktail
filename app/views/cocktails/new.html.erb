@@ -1,6 +1,12 @@
-<%= simple_form_for(@cocktail) do |f| %>
-  <%=f.input :name %>
-  <%= f.input :photo, as: :file %>
-  <%=f.submit %>
-<% end %>
+<div class="background-general">
+  <div class="form-control">
+    <%= simple_form_for(@cocktail) do |f| %>
+    <%=f.input  :name %>
+    <%= f.input :photo, as: :file %>
+    <%=f.submit %>
+    <% end %>
+  </div>
+</div>
+
+
 

@@ -1,6 +1,5 @@
 # db/seeds.rb
 
-
 require "open-uri"
 
 Ingredient.create(name: "lemon")
